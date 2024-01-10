@@ -1,0 +1,17 @@
+---
+title: "Favorites"
+---
+
+## Favorite Topics
+- Math
+- Programming
+- Data
+
+## Favorite Drinks
+- Beer
+- Beer
+- Beer
+
+
+
+

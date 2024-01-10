@@ -12,5 +12,26 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "favorites.html",
+    "href": "favorites.html",
+    "title": "Favorites",
+    "section": "",
+    "text": "Math\nProgramming\nData"
+  },
+  {
+    "objectID": "favorites.html#favorite-topics",
+    "href": "favorites.html#favorite-topics",
+    "title": "Favorites",
+    "section": "",
+    "text": "Math\nProgramming\nData"
+  },
+  {
+    "objectID": "favorites.html#favorite-drinks",
+    "href": "favorites.html#favorite-drinks",
+    "title": "Favorites",
+    "section": "Favorite Drinks",
+    "text": "Favorite Drinks\n\nBeer\nBeer\nBeer"
   }
 ]
