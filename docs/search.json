@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "My Quarto Demosite",
-    "section": "",
-    "text": "This is my Quarto demosite, complete with dashboards.\n\n1 + 1\n\n[1] 2\n\n\n\n1 + 1\n\n2"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -33,5 +26,12 @@
     "title": "Favorites",
     "section": "Favorite Drinks",
     "text": "Favorite Drinks\n\nBeer\nBeer\nBeer"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Quarto Demosite",
+    "section": "",
+    "text": "This is my Quarto demosite, complete with dashboards.\n\n1 + 1\n\n[1] 2\n\n\n\n1 + 1\n\n2"
   }
 ]
