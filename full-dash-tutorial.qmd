@@ -1,0 +1,171 @@
+---
+title: "Full Dashboard Tutorial"
+format: dashboard
+---
+
+```{python}
+import numpy as np
+import pandas as pd
+import random
+import matplotlib.pyplot as plt
+import ipywidgets as widgets
+
+rand1 = np.random.rand(10)
+rand2 = np.random.rand(10)
+rand3 = np.random.rand(10)
+
+rand_dict = {'random_set1': rand1, 'random_set2': rand2, 'random_set3': rand3}
+
+df_rand = pd.DataFrame(rand_dict)
+```
+
+# Standard Layout
+
+## Row
+```{python}
+1+1
+```
+
+## Row
+```{python}
+2+2
+```
+
+```{python}
+3+3
+```
+
+
+# Columns First Output {orientation="columns"}
+
+## Column
+```{python}
+1+1
+```
+
+## Column
+```{python}
+2+2
+```
+
+```{python}
+3+3
+```
+
+
+# Scrolling Output {scrolling="true"}
+
+```{python}
+1+1
+```
+
+```{python}
+2+2
+```
+
+```{python}
+3+3
+```
+
+# Columns and Scrolling Output {orientation="columns" scrolling="true"}
+
+```{python}
+1+1
+```
+
+```{python}
+2+2
+```
+
+```{python}
+3+3
+```
+
+# Tabsets Output
+
+## Row
+```{python}
+1+1
+```
+
+## Row {.tabset}
+
+```{python}
+#| title: Exhibit A
+2+2
+```
+
+```{python}
+#| title: Exhibit B
+3+3
+```
+
+## Row
+
+### Column {.tabset}
+```{python}
+#| title: Exhibit C
+4+4
+```
+
+```{python}
+#| title: Exhibit D
+5+5
+```
+
+### Column
+```{python}
+6+6
+```
+
+# Card Output
+
+## Row
+
+```{python}
+1+1
+```
+
+::: {.card}
+This card contains text.
+:::
+
+## Row
+
+::: {.card title="My Title"}
+This card contains text and has a title.
+:::
+
+
+# Display Options (naming plots)
+
+## Row
+```{python}
+plt.plot(df_rand)
+```
+
+## Row
+```{python}
+#| title: Histogram Version
+#| padding: 0px
+plt.hist(df_rand)
+plt.legend(labels = df_rand.keys())
+```
+
+
+# Interactive Plots
+```{python}
+import plotly.express as px
+```
+
+## {.sidebar}
+
+
+## Column
+```{python}
+fig = px.line(df_rand)
+fig.show()
+```
+
+
+

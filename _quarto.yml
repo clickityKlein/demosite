@@ -12,6 +12,14 @@ website:
       - favorites.qmd
       - r-dashboard.qmd
       - python-nb-dashboard.ipynb
+      - href: python-dashboard-text.qmd
+        text: The Real Dashboard
+      - full-dash-tutorial.qmd
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/carl-klein
+      - icon: github
+        href: https://github.com/clickityKlein
 
 format:
   html:

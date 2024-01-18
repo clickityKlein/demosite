@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "demosite",
+    "title": "My Quarto Demosite",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is my Quarto demosite, complete with dashboards.\n\n1 + 1\n\n[1] 2\n\n\n\n1 + 1\n\n2"
   },
   {
     "objectID": "about.html",
@@ -33,40 +33,5 @@
     "title": "Favorites",
     "section": "Favorite Drinks",
     "text": "Favorite Drinks\n\nBeer\nBeer\nBeer"
-  },
-  {
-    "objectID": "r-dashboard.html",
-    "href": "r-dashboard.html",
-    "title": "r-dashboard",
-    "section": "",
-    "text": "Here is some content.\n\n\n\n\n\n\n1+1\n\n[1] 2"
-  },
-  {
-    "objectID": "r-dashboard.html#row",
-    "href": "r-dashboard.html#row",
-    "title": "r-dashboard",
-    "section": "",
-    "text": "Here is some content."
-  },
-  {
-    "objectID": "r-dashboard.html#row-1",
-    "href": "r-dashboard.html#row-1",
-    "title": "r-dashboard",
-    "section": "",
-    "text": "1+1\n\n[1] 2"
-  },
-  {
-    "objectID": "python-nb-dashboard.html",
-    "href": "python-nb-dashboard.html",
-    "title": "Row",
-    "section": "",
-    "text": "---\ntitle: \"IPYNB Testing Page\"\nauthor: Carl Klein\nformat: dashboard\n---\n1+1\n\n2\n32*5\n\n160"
-  },
-  {
-    "objectID": "python-nb-dashboard.html#row",
-    "href": "python-nb-dashboard.html#row",
-    "title": "Row",
-    "section": "Row",
-    "text": "Row\n\n15/3\n\n5.0"
   }
 ]
